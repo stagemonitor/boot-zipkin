@@ -14,7 +14,7 @@ No code changes required.
  wget -O zipkin.jar 'https://search.maven.org/remote_content?g=io.zipkin.java&a=zipkin-server&v=LATEST&c=exec'
  java -jar zipkin.jar
  ```
-- Open the client application at http://localhost:8080/. This will call the server application at http://localhost8081 and display a message.
+- Open the client application at http://localhost:8080. This will call the server application at http://localhost:8081 and display a message.
 - Next, you can view traces that went through the client applciation via http://localhost:9411/?serviceName=client
 - Also note the little stagemonitor icon at the bottom right of the client application.
   Clicking on it opens the stagemonitor in-browser-widget which lets you analyze the call tree of the current request,
